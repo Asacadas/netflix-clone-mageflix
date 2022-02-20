@@ -1,0 +1,39 @@
+@media screen and (max-width:700px){
+    header .container{
+        display: flex;
+        flex-direction:column;
+        padding-bottom: 15px;
+    }
+
+    .logo{
+        padding: 5px;
+    }
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+    }
+
+    .season-principal{
+        width: 100%;
+    }
+
+    .explicacao{
+        padding-bottom: 15px;
+    }
+
+    .funcionam-cartas img{
+        max-height: 400px;  /* Máximo da altura da imagem */
+        min-height: 400px;
+    }
+
+}
+
+@media screen and (min-width:1000px) {
+    .descricao{
+        width: 100%;
+    }
+    
+    .season-principal{
+        width: 100%;
+    }
+}
